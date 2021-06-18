@@ -1,0 +1,37 @@
+{
+  "id": "examples",
+  "type": "Catalog",
+  "title": "Federal Office of Topography - swisstopo",
+  "stac_version": "0.9",
+  "description": "Data Catalog of the Federal Office of Topography",
+  "links": [
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.swisstopo.landeskarte-farbe-10",
+      "type": "application/json",
+      "title": "National Map 1:10'000 (ch.swisstopo.landeskarte-farbe-10)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.swisstopo.pixelkarte-farbe-pk25.noscale",
+      "type": "application/json",
+      "title": "National Map 1:25'000 (ch.swisstopo.pixelkarte-farbe-pk25.noscale)"
+    },
+    {          
+      "rel": "child",
+      "href": "",
+      "type": "application/json",
+      "title": "..."
+    },
+    {
+      "rel": "self",
+      "href": "https://data.geo.admin.ch/catalogs/swisstopo.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/p1d1d1/p1d1d1.github.io/master/fsdi.json",
+      "type": "application/json"
+    }
+  ]
+}

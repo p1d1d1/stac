@@ -1,0 +1,109 @@
+{
+  "id": "examples",
+  "type": "Catalog",
+  "title": "Federal Office for Spatial Development - ARE",
+  "stac_version": "0.9",
+  "description": "Data Catalog of the Federal Office for Spatial Development",
+  "links": [
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.agglomerationsverkehr",
+      "type": "application/json",
+      "title": "Cities and conurbations which qualify for subsidies (ch.are.agglomerationsverkehr)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.alpenkonvention",
+      "type": "application/json",
+      "title": "Alpine Convention (ch.are.alpenkonvention)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.gemeindetypen",
+      "type": "application/json",
+      "title": "Typology of municipalities ARE (ch.are.gemeindetypen)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.belastung-personenverkehr-bahn",
+      "type": "application/json",
+      "title": "Load (passengers) on the Swiss rail network (passenger traffic) (ch.are.belastung-personenverkehr-bahn)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.belastung-personenverkehr-strasse",
+      "type": "application/json",
+      "title": "Load (vehicles) on the Swiss road network (passengers and freight) (ch.are.belastung-personenverkehr-strasse)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.erreichbarkeit-miv",
+      "type": "application/json",
+      "title": "Accessibility by road depending on travel time and potential at destination (ch.are.erreichbarkeit-miv)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.erreichbarkeit-oev",
+      "type": "application/json",
+      "title": "Accessibility by public transport depending on travel time and potential at destination (ch.are.erreichbarkeit-oev)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.gueteklassen_oev",
+      "type": "application/json",
+      "title": "Public transport quality categories (ARE) (ch.are.gueteklassen_oev)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.landschaftstypen",
+      "type": "application/json",
+      "title": "Landscape typology of Switzerland (ch.are.landschaftstypen)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.reisezeit-agglomerationen-miv",
+      "type": "application/json",
+      "title": "Travel time to agglomerations and core communities by by road (ch.are.reisezeit-agglomerationen-miv)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.reisezeit-agglomerationen-oev",
+      "type": "application/json",
+      "title": "Travel time to agglomerations and core communities by public transport (ch.are.reisezeit-agglomerationen-oev)" 
+    },
+    {
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.reisezeit-miv",
+      "type": "application/json",
+      "title": "Travel time to 6 major centres by road (ch.are.reisezeit-miv)"
+    },
+    {
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.reisezeit-oev",
+      "type": "application/json",
+      "title": "Travel time to 6 major centres by public transport (ch.are.reisezeit-oev)"
+    },
+    {
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.windenergie-bundesinteressen",
+      "type": "application/json",
+      "title": "The wind energy concept – Map indicating federal government interests in the planning of wind energy plants (ch.are.windenergie-bundesinteressen)"
+    },
+    {
+      "rel": "child",
+      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.are.wohnungsinventar-zweitwohnungsanteil",
+      "type": "application/json",
+      "title": "Housing inventory and secondary homes rate (ch.are.wohnungsinventar-zweitwohnungsanteil)"
+    },
+    {
+      "rel": "self",
+      "href": "https://data.geo.admin.ch/catalogs/are.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://raw.githubusercontent.com/p1d1d1/p1d1d1.github.io/master/fsdi.json",
+      "type": "application/json"
+    }
+  ]
+}
