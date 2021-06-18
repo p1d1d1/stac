@@ -25,12 +25,12 @@
     },
     {
       "rel": "self",
-      "href": "https://data.geo.admin.ch/catalogs/swisstopo.json",
+      "href": "https://raw.githubusercontent.com/p1d1d1/stac/main/catalogs/swisstopo.json",
       "type": "application/json"
     },
     {
       "rel": "parent",
-      "href": "https://raw.githubusercontent.com/p1d1d1/p1d1d1.github.io/master/fsdi.json",
+      "href": "https://raw.githubusercontent.com/p1d1d1/stac/main/catalogs/fsdi.json",
       "type": "application/json"
     }
   ]
