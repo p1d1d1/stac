@@ -7,7 +7,7 @@
   "links": [
     {          
       "rel": "child",
-      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/test_cov",
+      "href": "https://service-stac.dev.bgdi.ch/api/stac/v0.9/collections/test_cov",
       "type": "application/json",
       "title": "Cities and conurbations which qualify for subsidies (ch.are.agglomerationsverkehr)"
     },
