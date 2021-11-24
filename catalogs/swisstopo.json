@@ -1,37 +1,129 @@
 {
-  "id": "examples",
   "type": "Catalog",
   "title": "Federal Office of Topography - swisstopo",
   "stac_version": "0.9",
-  "description": "Data Catalog of the Federal Office of Topography",
+  "description": "Data Catalog of the Federal Office of Topography - swisstopo",
   "links": [
     {          
       "rel": "child",
-      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.swisstopo.landeskarte-farbe-10",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bazl.luftfahrtkarten-icao",
       "type": "application/json",
       "title": "National Map 1:10'000 (ch.swisstopo.landeskarte-farbe-10)"
     },
+	{          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bazl.segelflugkarte",
+      "type": "application/json",
+      "title": "Glider Chart Switzerland 1:300'000"
+    },
     {          
       "rel": "child",
-      "href": "https://service-stac.int.bgdi.ch/api/stac/v0.9/collections/ch.swisstopo.pixelkarte-farbe-pk25.noscale",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.geoidmodell-ch1903",
       "type": "application/json",
-      "title": "National Map 1:25'000 (ch.swisstopo.pixelkarte-farbe-pk25.noscale)"
+      "title": "Geoid model CHGeo2004 in CH1903"
     },
     {          
       "rel": "child",
-      "href": "",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.landeskarte-farbe-10",
       "type": "application/json",
-      "title": "..."
+      "title": "National Map 1:10'000 (color)"
     },
-    {
-      "rel": "self",
-      "href": "https://raw.githubusercontent.com/p1d1d1/stac/main/catalogs/swisstopo.json",
-      "type": "application/json"
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.pixelkarte-farbe-pk100.noscale",
+      "type": "application/json",
+      "title": "National Map 1:100'000"
     },
-    {
-      "rel": "parent",
-      "href": "https://raw.githubusercontent.com/p1d1d1/stac/main/catalogs/fsdi.json",
-      "type": "application/json"
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.pixelkarte-farbe-pk200.noscale",
+      "type": "application/json",
+      "title": "National Map 1:200'000"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.pixelkarte-farbe-pk25.noscale",
+      "type": "application/json",
+      "title": "National Map 1:25'000"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.pixelkarte-farbe-pk50.noscale",
+      "type": "application/json",
+      "title": "National Map 1:50'000"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissalti3d",
+      "type": "application/json",
+      "title": "swissALTI3D"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissbathy3d",
+      "type": "application/json",
+      "title": "swissBATHY3D, Bathymetric data of Swiss lakes"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissboundaries3d",
+      "type": "application/json",
+      "title": "swissBOUNDARIES3D"
+    },
+	
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissbuildings3d_2",
+      "type": "application/json",
+      "title": "swissBUILDINGS3D 2.0"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissimage-dop10",
+      "type": "application/json",
+      "title": "SWISSIMAGE 10 cm, digital orthophotomosaic of Switzerland"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swiss-map-vector10",
+      "type": "application/json",
+      "title": "Swiss Map Vector 10"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swiss-map-vector25",
+      "type": "application/json",
+      "title": "Swiss Map Vector 25"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissnames3d",
+      "type": "application/json",
+      "title": "swissNAMES3D geographical names of the national Survey"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swisssurface3d",
+      "type": "application/json",
+      "title": "swissSURFACE3D"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swisssurface3d-raster",
+      "type": "application/json",
+      "title": "swissSURFACE3D Raster"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swisstlm3d",
+      "type": "application/json",
+      "title": "swissTLM3D"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swisstlmregio",
+      "type": "application/json",
+      "title": "swissTLMRegio"
     }
   ]
 }
