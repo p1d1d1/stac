@@ -1,0 +1,38 @@
+{
+  "id": "examples",
+  "type": "Catalog",
+  "title": "Swiss Federal Office of Energy SFOE",
+  "stac_version": "0.9",
+  "description": "Data Catalog of the Swiss Federal Office of Energy",
+  "links": [
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.windenergieanlagen",
+      "type": "application/json",
+      "title": "Wind energy plants (ch.bfe.windenergieanlagen)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.statistik-wasserkraftanlagen",
+      "type": "application/json",
+      "title": "Statistics on hydropower plants (WASTA) (ch.bfe.statistik-wasserkraftanlagen)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.kernkraftwerke",
+      "type": "application/json",
+      "title": "Nuclear Power Plants (ch.bfe.kernkraftwerke)"
+    },
+    {          
+      "rel": "child",
+      "href": "https://data.geo.admin.ch/api/stac/v0.9/collections/ch.bfe.biogasanlagen",
+      "type": "application/json",
+      "title": "Biogas plants (ch.bfe.biogasanlagen)"
+    },
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/p1d1d1/stac/main/catalogs/bfe.json",
+      "type": "application/json"
+    }
+  ]
+}
